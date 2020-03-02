@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">30resep</string>
+    <string name="Nama">Nama</string>
+    <string name="Bahan">Bahan</string>
+    <string name="Cara">Cara</string>
+    <string name="Date">Date</string>
+</resources>

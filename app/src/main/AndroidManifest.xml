@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.a31resep">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logo30resepmasakan"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo30resepmasakan"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".BasahActivity"></activity>
+        <activity android:name=".MainMakananActivity" />
+        <activity android:name=".MinumanActivity" />
+        <activity android:name=".MakananActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".InfoActivity" />
+        <activity android:name=".DetailMakananActivity" />
+        <activity android:name=".DetailMinumanActivity" />
+        <activity android:name=".DetailBasahActivity" />
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

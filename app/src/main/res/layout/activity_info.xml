@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:id="@+id/judul"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/arizonia"
+        android:text="Our Team"
+        android:textColor="@color/colorAtt"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"/>
+    <TextView
+        android:id="@+id/satu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/judul"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/black"
+        android:text="1.Kristianingsih"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/dua"
+        android:layout_below="@+id/satu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/black"
+        android:text="2.Ratna Sari Wediyah Ningsih"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/tiga"
+        android:layout_below="@+id/dua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/black"
+        android:text="3.Rikza Thoyyiba"
+        android:layout_centerHorizontal="true"/>
+    <TextView
+        android:id="@+id/empat"
+        android:layout_below="@+id/tiga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textColor="@android:color/black"
+        android:text="4.Sifa Usyafitri Hikmah"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
